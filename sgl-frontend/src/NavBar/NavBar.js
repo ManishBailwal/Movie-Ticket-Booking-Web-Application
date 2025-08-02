@@ -73,14 +73,12 @@ const NavBar = () => {
         <div className="flex items-center justify-around w-full">
         <NavLink to="/">
           <img
-            src={images.logo}
-            alt="Netflix Logo"
-            className="h-auto  w-30 hover:cursor-pointer hover:25"
-          />
+  src={images.logo}
+  alt="BookFlix Logo"
+  className="h-20 w-auto transform scale-125 transition-all duration-300"
+/>
           </NavLink>
-          {/* <h2 className="text-white font-bold text-2xl  hover:text-red hover:font-bold hover:underline hover:cursor-pointer hover:text-3xl lg:w-full lg:px-2">
-            SGL Miniplex
-          </h2> */}
+          
         </div>
       </div>
       <div className="flex w-3/4 justify-end  items-center">

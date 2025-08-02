@@ -24,7 +24,7 @@ const ImageFirst = () => {
           data-aos-duration="1500"
         >
           <h1 className="text-5xl text-center text-white">
-            Welcome To <span className="text-red">SGL Miniplex</span>
+            Welcome To <span className="text-red">BookFlix</span>
           </h1>
           <p className="text-lg  text-white p-5 text-center ">
           Welcome to the About Us page of our movie hall! We are thrilled to have you here and excited to share with you some information about who we are and what we stand for.
@@ -49,16 +49,16 @@ const TextFirst = () => {
     <>
       <div className="bg-black flex justify-center items-center lg:h-full ">
         <h1 className="text-5xl text-center text-white">
-          About <span className="text-red">SGL Miniplex Private Limited</span>
+          About <span className="text-red">BookFlix</span>
         </h1>
       </div>
       <div className="bg-black flex flex-col justify-center items-center lg:h-full w-full mt-4 lg:flex-row">
         <div className="bg-black flex justify-center items-center w-full lg:h-full lg:w-1/2">
           <p className="text-xl  text-white p-5 text-center ">
-            SGL Miniplex Private Limited is a visionary and a highly successful
-            entertainment group established in 2012. Now bringing to you "SGL
+           BookFlix is a visionary and a highly successful
+            entertainment group established in 2012. Now bringing to you "
             Miniplex" theatre with multiple screens and with a sturdy aim to
-            empower the 2 E's of cinema- Entertainment & Employment. SGL
+            empower the 2 E's of cinema- Entertainment & Employment. 
             Miniplex primarily aim at revolutionizing the viewer's experience by
             providing digitally beamed films in Full High Definition resolution,
             Ultra-modern digital sound and 3-D compatible technology with ala
@@ -104,11 +104,11 @@ const About = () => {
           data-aos-duration="1500"
         >
           <h1 className="text-5xl text-center text-white">
-            Why Choose <span className="text-red">SGL Miniplex</span>
+            Why Choose <span className="text-red">BookFlix</span>
           </h1>
           <p className="text-xl  text-white p-5 text-center ">
             Are you looking for the perfect place to watch your favorite movies?
-            Look no further than SGL Miniplex! Here are just a few reasons why
+            Look no further than BookFlix! Here are just a few reasons why
             you should choose us for your next movie night.
           </p>
           <div />
@@ -122,11 +122,11 @@ const About = () => {
             Our<span className="text-red"> Team</span>
           </h1>
           <TestimonialCard
-            name1="Harish Kr. Sikka"
+            name1="Av Verma"
             designation1="Managing Director"
             image1={images.emp0}
             info1={
-              "The Managing Director of SGL MiniPlex is a key leadership position within the company. This individual is responsible for overseeing all aspects of the company's operations, including strategic planning, financial management, and day-to-day operations. "
+              "The Managing Director of BookFlix is a key leadership position within the company. This individual is responsible for overseeing all aspects of the company's operations, including strategic planning, financial management, and day-to-day operations. "
             }
             name2=" Ranjan Howladar"
             designation2="Production Manager"
@@ -323,9 +323,9 @@ const About = () => {
                 Vision
               </h1>
               <p className="text-lg  text-white p-5 text-center ">
-                SGL Miniplex is not just a movie theater, but a community space
+                BookFlix is not just a movie theater, but a community space
                 where people can gather, relax, and escape into the magic of
-                cinema.  SGL Miniplex Vision is innovative.
+                cinema.  BookFlix Vision is innovative.
               </p>
             </div>
           </div>

@@ -5,13 +5,13 @@ const About = () => {
     <div className=" bg-black flex justify-center items-center  lg:h-full flex-col p-5 gap-5 overflow-hidden">
       <div className="bg-black flex justify-center items-center lg:h-full overflow-hidden ">
         <h1 className="text-5xl text-center text-white">
-          About <span className="text-red">SGL Miniplex Private Limited</span>
+          About <span className="text-red">BookFlix</span>
         </h1>
       </div>
       <div className="bg-black flex flex-col justify-center items-center lg:h-full w-full mt-4 lg:flex-row overflow-hidden ">
         <div className="bg-black flex justify-center items-center w-full lg:h-full lg:w-1/2">
           <p className="text-xl  text-white p-5 text-center">
-            SGL Miniplex Private Limited is a visionary and a highly successful
+            BookFlix Private Limited is a visionary and a highly successful
             entertainment group established in 2012. Now bringing to you "SGL
             Miniplex" theatre with multiple screens and with a sturdy aim to
             empower the 2 E's of cinema- Entertainment & Employment. SGL
