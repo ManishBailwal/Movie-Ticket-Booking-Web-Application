@@ -21,14 +21,14 @@ A full-stack web application that allows admins to manage movie listings and let
 
 ### 🔧 Frontend
 - **React.js**
-- **CSS / Tailwind / Bootstrap** (if applicable)
+- **Tailwind Css** 
 
 ### ⚙️ Backend
 - **Node.js**
 - **Express.js**
 
 ### 🗂 Database
-- *(Specify: MongoDB / MySQL / any other used)*
+- MongoDB
 
 ---
 
