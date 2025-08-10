@@ -44,6 +44,7 @@ import emp4 from '../assets/images/emp4.jpg';
 import emp5 from '../assets/images/emp5.jpg';
 import emp6 from '../assets/images/emp6.jpg';
 import emp7 from '../assets/images/emp7.jpg';
+import theater30 from '../assets/images/theater30.jpg'
 const theater1 = "https://res.cloudinary.com/dagab89wn/image/upload/v1689657939/sgl-miniplex/Threater2_hkolyx.jpg";
 const theater2 = "https://res.cloudinary.com/dagab89wn/image/upload/v1689657939/sgl-miniplex/Threater6_uhwcfm.jpg";
 const theater3 = "https://res.cloudinary.com/dagab89wn/image/upload/v1689657940/sgl-miniplex/Threater4_dbq1yc.jpg";
@@ -109,6 +110,7 @@ const images = {
   theater19,
   theater20,
   theater21,
+  theater30,
   // theater22,
   theater11,
   // theater24,

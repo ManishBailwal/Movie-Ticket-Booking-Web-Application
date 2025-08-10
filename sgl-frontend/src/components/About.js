@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div className="bg-black flex justify-center items-center lg:w-2/5 ">
           <img
-            src={images.theater22}
+            src={images.theater30}
             alt="theater"
             className=" border-2 border-white p-2 rounded-lg "
           />
