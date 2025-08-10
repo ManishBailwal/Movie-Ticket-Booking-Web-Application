@@ -112,7 +112,7 @@ const NavBar = () => {
           {/* <h2 className="text-white font-bold text-xl  hover:text-red hover:underline">
             <NavLink to="/voucher">Offers</NavLink>
           </h2> */}
-          <NavLink to="https://in.bookmyshow.com/buytickets/najibabad-sgl-miniplex/cinema-naji-SGLN-MT/"
+          <NavLink to="https://in.bookmyshow.com/explore/home/dehradun"
             target="_blank"
           >
           <button

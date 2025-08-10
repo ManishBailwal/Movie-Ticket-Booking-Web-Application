@@ -128,9 +128,9 @@ const About = () => {
             info1={
               "The Managing Director of BookFlix is a key leadership position within the company. This individual is responsible for overseeing all aspects of the company's operations, including strategic planning, financial management, and day-to-day operations. "
             }
-            name2=" Ranjan Howladar"
+            name2=" Aditya Pratap Singh"
             designation2="Production Manager"
-            image2={images.emp6}
+            image2={images.emp2}
             info2={
               'As a production manager, my primary objective is to ensure that our manufacturing process runs efficiently and effectively. I oversee the production team and work with other departments to ensure that we meet our production targets while staying within budget.'
             }

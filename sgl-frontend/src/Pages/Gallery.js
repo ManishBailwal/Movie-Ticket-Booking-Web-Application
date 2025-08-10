@@ -8,7 +8,7 @@ const ImageFirst = () => {
     <>
       <div className="bg-black flex justify-center items-center lg:h-full ">
         <h1 className="text-5xl text-center text-white">
-          Gallery <span className="text-red">Of SGL</span>
+          Gallery <span className="text-red">Of BookFlix</span>
         </h1>
       </div>
     </>

@@ -15,10 +15,9 @@ const Footer = () => {
       </div>
       <div className="flex flex-col w-full lg:flex-row lg:mt-6">
         <div className="w-full text-white justify-center items-center text-center mt-2 flex flex-col p-4">
-          <span className="text-red">Najibabad</span> Baba Complex,
-          Najibabad,Uttar Pradesh,246732
-          <a href="tel:+91 8126000108"> +91 8126000108</a>
-          <a href="mailto:admin@sglminiplex.com">admin@sglminiplex.com</a>
+          <span className="text-red">Dehradun</span> RajPur Road Dehradun,Uttarakhand,248001
+          <a href="tel:+91 8126000108"> +91 6397308332</a>
+          <a href="mailto:admin@sglminiplex.com">contact@bookflix.com</a>
           <div className="flex gap-2 mt-2">
             <Link
               target="_blank"
@@ -43,28 +42,22 @@ const Footer = () => {
               />
             </Link>
           </div>
-          <Link
-            target="_blank"
-            to="https://www.google.com/maps/place/SGL+MINIPLEX/@29.6225923,78.3281761,17z/data=!4m14!1m7!3m6!1s0x390bdf5241532ffd:0xe4e9377619e46e8a!2sSGL+MINIPLEX!8m2!3d29.6225923!4d78.3303648!16s%2Fg%2F11sms0cm9t!3m5!1s0x390bdf5241532ffd:0xe4e9377619e46e8a!8m2!3d29.6225923!4d78.3303648!16s%2Fg%2F11sms0cm9t"
-            className="bg-red text-white p-2 rounded-lg mt-2 w-1/2"
-          >
-            Get Direction
-          </Link>
+          
         </div>
         <div
           className="w-full text-white justify-center items-center text-center mt-2 flex flex-col p-4"
           data-aos="fade-up"
           data-aos-duration="3000"
         >
-          <span className="text-red font-bold">Dehradun</span> Kartikay Tower, GMS Road,
-          Dehradun,248001
-          <a href="tel:+91 1353564437"> +91 135-356-4437</a>
-          <a href="tel:+91 8126000108"> +91 812-600-0108</a>
-          <a href="mailto:admin@sglminiplex.com">admin@sglminiplex.com</a>
+          <span className="text-red font-bold">Dehradun</span> Raipur Road, Dehradun,
+          Uttarakhand,248001
+          <a href="tel:+91 1353564454"> +91 135-356-4454</a>
+          <a href="tel:+91 8126000107"> +91 812-600-01007</a>
+          <a href="mailto:admin@sglminiplex.com">info@bookflix.com</a>
           <div className="flex gap-2 mt-2">
             <Link
               target="_blank"
-              to="https://www.facebook.com/sglminiplex"
+              to="https://www.facebook.com"
               className="hover:text-red cursor-pointer"
             >
               <AiOutlineFacebook
@@ -72,26 +65,20 @@ const Footer = () => {
                 className="hover:text-red cursor-pointer"
               />
             </Link>
-            <Link target="_blank" to="https://www.instagram.com/sglminiplex/">
+            <Link target="_blank" to="https://www.instagram.com/">
               <AiOutlineInstagram
                 size={30}
                 className="hover:text-red cursor-pointer"
               />
             </Link>
-            <Link target="_blank" to="https://twitter.com/MiniplexSgl">
+            <Link target="_blank" to="https://twitter.com/">
               <AiOutlineTwitter
                 size={30}
                 className="hover:text-red cursor-pointer"
               />
             </Link>
           </div>
-          <Link
-            target="_blank"
-            to="https://www.google.com/maps/place/Sikka+%26+Associates/@30.3158768,78.0089409,17z/data=!4m14!1m7!3m6!1s0x390929933032bd9d:0xdd0a737a68ce3585!2sSikka+%26+Associates!8m2!3d30.3158768!4d78.0111296!16s%2Fg%2F1pt_m11zs!3m5!1s0x390929933032bd9d:0xdd0a737a68ce3585!8m2!3d30.3158768!4d78.0111296!16s%2Fg%2F1pt_m11zs"
-            className="bg-red text-white p-2 rounded-lg mt-2 w-1/2"
-          >
-            Get Direction
-          </Link>
+          
         </div>
       </div>
       <h1 className="text-white text-center mt-2">
