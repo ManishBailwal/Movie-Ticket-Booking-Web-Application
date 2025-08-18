@@ -65,7 +65,7 @@ const NavBar = () => {
     );
   };
   return (
-    <div className="flex justify-between bg-black border-b-2 border-white p-3">
+    <div className="flex justify-between bg-black border-b-2 border-gray px-3 ">
       {search.length > 0 && filteredMovies.length > 0 && (
         <FilteredMovies filteredMovies={filteredMovies} />
       )}
@@ -81,17 +81,22 @@ const NavBar = () => {
           
         </div>
       </div>
-      <div className="flex w-3/4 justify-end  items-center">
+      <div className=" relative flex w-3/4 justify-end  items-center ">
         <input
-          className="hidden lg:flex lg:bg-black lg:text-white lg:border-2 lg:border-white lg:rounded-lg lg:p-1 lg:w-1/3 lg:h-10"
+          className="hidden lg:flex lg:bg-black lg:text-white lg:border lg:border-white lg:rounded-3xl lg:p-1 lg:w-1/3 lg:h-10"
           type="text"
-          placeholder="Search"
+          
           onChange={(e) => setSearch(e.target.value)}
         />
+
+        <div className="absolute left-2 top-7 text-white flex flex-row justify-center items-center gap-2">
+          
         <BsSearch
-          className="hidden lg:flex text-white text-2xl ml-2 border-2 border-white h-10 w-10 p-2 rounded-lg"
+          className=" hidden lg:flex text-white text-2xl  border-white h-4 w-4 rounded-lg"
           scale={20}
         />
+        <p>Search..........</p>
+        </div>
 
         <div className="hidden xl:flex items-center justify-around w-2/3 ">
           <h2 className="text-white font-bold text-xl  hover:text-red hover:underline">
