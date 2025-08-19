@@ -9,7 +9,7 @@ const getUserId = async () => {
 };
 
 export const login = (username, password) => {
-  return axios.post('https://sgl-backend-psi.vercel.app/api/user/login', {
+  return axios.post('https://movie-ticket-booking-web-applicatio.vercel.app/api/user/login', {
     username,
     password,
   });
@@ -19,7 +19,7 @@ export const bigPosterMovie = async (data) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.post(
-    'https://sgl-backend-psi.vercel.app/api/movie/addBigPosterMovie',
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/addBigPosterMovie',
     data,
     {
       headers: {
@@ -35,7 +35,7 @@ export const smallPosterMovie = async (data) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.post(
-    'https://sgl-backend-psi.vercel.app/api/movie/addSmallPosterMovie',
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/addSmallPosterMovie',
     data,
     {
       headers: {
@@ -51,7 +51,7 @@ export const nowPlayingMovie = async (data) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.post(
-    'https://sgl-backend-psi.vercel.app/api/movie/addNowPlayingMovie',
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/addNowPlayingMovie',
 
     data,
     {
@@ -68,7 +68,7 @@ export const comingSoonMovie = async (data) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.post(
-    'https://sgl-backend-psi.vercel.app/api/movie/addComingSoonMovie',
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/addComingSoonMovie',
     data,
     {
       headers: {
@@ -81,14 +81,14 @@ export const comingSoonMovie = async (data) => {
 };
 
 export const allMovies = () => {
-  return axios.get('https://sgl-backend-psi.vercel.app/api/movie/getMovies');
+  return axios.get('https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/getMovies');
 };
 
 export const deleteMovie = async (id) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.delete(
-    `https://sgl-backend-psi.vercel.app/api/movie/deleteMovie/${id}`,
+    `https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/deleteMovie/${id}`,
     {
       headers: {
         Authorization: 'Bearer ' + token + '',
@@ -102,7 +102,7 @@ export const hardDeleteMovie = async (id) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.delete(
-    `https://sgl-backend-psi.vercel.app/api/movie/hardDeleteMovie/${id}`,
+    `https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/hardDeleteMovie/${id}`,
     {
       headers: {
         Authorization: 'Bearer ' + token + '',
@@ -114,19 +114,19 @@ export const hardDeleteMovie = async (id) => {
 
 export const createFeedback = (data) => {
   return axios.post(
-    'https://sgl-backend-psi.vercel.app/api/feedback/createFeedback',
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/feedback/createFeedback',
     data
   );
 };
 
 export const allFeedbacks = () => {
-  return axios.get('https://sgl-backend-psi.vercel.app/api/feedback/getFeedbacks');
+  return axios.get('https://movie-ticket-booking-web-applicatio.vercel.app/api/feedback/getFeedbacks');
 };
 
 export const createGallery = async (data) => {
   const token = await getToken();
   const userId = await getUserId();
-  return axios.post('https://sgl-backend-psi.vercel.app/api/gallery/add', data, {
+  return axios.post('https://movie-ticket-booking-web-applicatio.vercel.app/api/gallery/add', data, {
     headers: {
       'Content-Type': 'multipart/form-data',
       Authorization: 'Bearer ' + token + '',
@@ -136,14 +136,14 @@ export const createGallery = async (data) => {
 };
 
 export const allGalleries = () => {
-  return axios.get('https://sgl-backend-psi.vercel.app/api/gallery/getAll');
+  return axios.get('https://movie-ticket-booking-web-applicatio.vercel.app/api/gallery/getAll');
 };
 
 export const deleteGallery = async (id) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.delete(
-    `https://sgl-backend-psi.vercel.app/api/gallery/delete/${id}`,
+    `https://movie-ticket-booking-web-applicatio.vercel.app/api/gallery/delete/${id}`,
     {
       headers: {
         Authorization: 'Bearer ' + token + '',
@@ -155,7 +155,7 @@ export const deleteGallery = async (id) => {
 
 export const getMovieById = (id) => {
   return axios.get(
-    `https://sgl-backend-psi.vercel.app/api/movie/getMovieById/${id}`
+    `https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/getMovieById/${id}`
   );
 };
 
@@ -163,7 +163,7 @@ export const createVoucher = async (data) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.post(
-    'https://sgl-backend-psi.vercel.app/api/voucher/createVoucher',
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/voucher/createVoucher',
     data,
     {
       headers: {
@@ -176,18 +176,18 @@ export const createVoucher = async (data) => {
 };
 
 export const getVouchers = () => {
-  return axios.get('https://sgl-backend-psi.vercel.app/api/voucher/getAll');
+  return axios.get('https://movie-ticket-booking-web-applicatio.vercel.app/api/voucher/getAll');
 };
 
 export const getVoucher = (id) => {
-  return axios.get('https://sgl-backend-psi.vercel.app/api/voucher/get/' + id);
+  return axios.get('https://movie-ticket-booking-web-applicatio.vercel.app/api/voucher/get/' + id);
 };
 
 export const deleteVoucher = async (id) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.delete(
-    'https://sgl-backend-psi.vercel.app/api/voucher/delete-voucher/' + id,
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/voucher/delete-voucher/' + id,
     {
       headers: {
         Authorization: 'Bearer ' + token + '',
@@ -201,7 +201,7 @@ export const disableVoucher = async (id) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.delete(
-    'https://sgl-backend-psi.vercel.app/api/voucher/disable-voucher' + id,
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/voucher/disable-voucher' + id,
     {
       headers: {
         Authorization: 'Bearer ' + token + '',
@@ -212,18 +212,18 @@ export const disableVoucher = async (id) => {
 };
 
 export const getStats = () => {
-  return axios.get('https://sgl-backend-psi.vercel.app/api/stats/getStats');
+  return axios.get('https://movie-ticket-booking-web-applicatio.vercel.app/api/stats/getStats');
 };
 
 export const updateStats = async (data) => {
-  return axios.get('https://sgl-backend-psi.vercel.app/api/stats/updateStats');
+  return axios.get('https://movie-ticket-booking-web-applicatio.vercel.app/api/stats/updateStats');
 };
 
 export const enableOrDisableFeedback = async (id) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.get(
-    'https://sgl-backend-psi.vercel.app/api/feedback/enableOrDisableFeedback/' + id,
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/feedback/enableOrDisableFeedback/' + id,
     {
       headers: {
         Authorization: 'Bearer ' + token + '',
@@ -235,20 +235,20 @@ export const enableOrDisableFeedback = async (id) => {
 
 export const postMovieFeedback = async (id, data) => {
   return axios.post(
-    'https://sgl-backend-psi.vercel.app/api/movie/addFeedback/' + id,
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/addFeedback/' + id,
     data
   );
 };
 
 export const getAllMovieFeedbacks = async () => {
-  return axios.get('https://sgl-backend-psi.vercel.app/api/movie/getAllFeedbacks');
+  return axios.get('https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/getAllFeedbacks');
 };
 
 export const enableOrDisableMovieFeedback = async (id) => {
   const token = await getToken();
   const userId = await getUserId();
   return axios.get(
-    'https://sgl-backend-psi.vercel.app/api/movie/enableOrDisableMovieFeedback/' +
+    'https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/enableOrDisableMovieFeedback/' +
       id,
     {
       headers: {
@@ -260,17 +260,17 @@ export const enableOrDisableMovieFeedback = async (id) => {
 };
 
 export const addNews = async (data) => {
-  return axios.post('https://sgl-backend-psi.vercel.app/api/news/addNews', data);
+  return axios.post('https://movie-ticket-booking-web-applicatio.vercel.app/api/news/addNews', data);
 };
 
 export const getAllNews = async () => {
-  return axios.get('https://sgl-backend-psi.vercel.app/api/news/getNews');
+  return axios.get('https://movie-ticket-booking-web-applicatio.vercel.app/api/news/getNews');
 };
 
 export const updateMovie = async (id, data) => {
   const token = await getToken();
   const userId = await getUserId();
-  return axios.put('https://sgl-backend-psi.vercel.app/api/movie/updateMovie/' + id, data, {
+  return axios.put('https://movie-ticket-booking-web-applicatio.vercel.app/api/movie/updateMovie/' + id, data, {
     headers: {
       'Content-Type': 'multipart/form-data',
       Authorization: 'Bearer ' + token + '',
