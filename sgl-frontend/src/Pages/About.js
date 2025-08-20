@@ -126,7 +126,7 @@ const About = () => {
             designation1="Managing Director"
             image1={images.emp0}
             info1={
-              "The Managing Director of BookFlix is a key leadership position within the company. This individual is responsible for overseeing all aspects of the company's operations, including strategic planning, financial management, and day-to-day operations. "
+              "The Managing Director of BookFlix is a key leadership position within the company. This individual is responsible for overseeing all aspects of the company's operations, including strategic planning, financial management, and day-to-day operations... "
             }
             name2=" Aditya Pratap Singh"
             designation2="Production Manager"
